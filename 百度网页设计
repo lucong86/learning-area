@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<style>
+		*{
+			box-sizing: border-box;
+
+		}
+		.logo-right ul a{
+			color: white;
+		}
+
+		.text{
+			margin: 0 auto;
+		
+			font-family: "微软雅黑";
+		}
+		.top{
+			background-color: #333333;
+			width: 80%;
+			margin:0 auto;
+		}
+		.logo{
+			height: 80px;
+			color: white;
+			width: 960px;
+			margin: 0 auto;
+			padding-top: 10px;
+
+
+		}
+		.logo ul,.banner ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;	
+
+		}	
+		.logo ul li{
+			display: inline-block;
+
+		}
+		.float-li a{
+			text-decoration: none;
+
+		}
+		.banner ul{
+			
+		}
+		.banner ul li{
+			float: right;
+			height: 20px;
+			width: 20px;
+			border: 1px solid white;
+			text-align: center;
+			margin: 5px;
+			bottom: 0px;
+		
+		}
+		.float-li{
+			width: 200px;
+			bottom: 0;
+			right: 0;
+			position: absolute;
+			bottom: 0;
+			right: 100px;
+			
+		}
+		.logo-left{
+			width: 50px;
+			height: 50px;
+			float: left;
+		}
+		.logo-right{
+			float: right;
+			color:white;
+
+		}
+
+		.banner{
+			background-color: #66bb33;
+			height: 300px;
+			position: relative;
+
+
+		}
+		.bottom{
+			height: 120px;
+			background-color: #666666;
+			color: white;
+			text-align: center;
+			font-size: 12px;
+			clear: both;
+			margin:0 auto;
+			width: 80%;
+		}
+		.main ul{
+			padding-left: 0;
+			margin-top: 0;
+			list-style-type: none;
+
+		}
+		.main ul li{
+			float:left;
+			width: 150px;
+		}
+		.main ul li a{
+			display: inline-block;
+			width: 100%;
+			line-height: 2.5;
+			text-align: center;
+			text-decoration: none;
+			border-top: 1px solid black;
+			border-left: 1px solid black;
+			border-radius:20px 20px 0 0;
+		}
+		.main ul li:last-child a{
+			border-right: 1px solid black;
+		}
+		.main ul li a:link{
+			background-color: #eee;
+		}
+		.main ul li a:focus,.main ul li a:hover{
+			background-color: white;
+			
+		}
+		.nav{
+			
+			height: 41px;
+			margin:0 auto;
+			padding-left:20%;
+			border-bottom: 1px solid black;
+		}
+		.main-1{
+			margin:0 auto;
+			width: 80%;
+			padding:0 10% 15px 10% ;
+			
+		}
+		.main1-1,.main1-2,.main1-3{
+		 display: flex;
+		 margin-top: 15px;
+		}
+		.main1,.main2,.main3,.main4,.main5,.main6,.main7,.main8,.main9,.main10{
+			 border: 1px solid black;
+			 flex:1;
+			 text-align:center;
+			 height: 200px;
+			 padding:50px; 
+		}
+		.main1,.main2,.main4,.main5,.main6,.main8,.main9{
+			margin-right: 15px;
+		}
+	
+
+	</style>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<div class="text">
+		<div class="top">
+				<div class="logo">
+				<div class="logo-left"><img src="" alt="Logo"></div>
+				<div class="logo-right"><ul>
+					<li><a href="#">Github</a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+				</div>
+				</div>
+				<div class="banner">
+					<a href="#"><img src="" alt="banner"></a>
+					<div class="float-li">
+						<ul>
+							<li><a href="#">4</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">1</a></li>
+						</ul>
+					</div>
+				</div>
+
+		</div>			
+			<div class="main">
+			 <div class="nav">
+				<ul>
+					<li><a href="#">HOME</a></li>
+					<li><a href="#">PROFIL</a></li>
+					<li><a href="#">ABOUT</a></li>
+				</ul>
+			</div>
+		<div class="main-1">
+			<div class="main1-1">
+				<div class="main1">This is Content 1</div>
+				<div class="main2">MaybeContent 2</div>
+				<div class="main3">Content 3</div>
+			</div>
+			<div class="main1-2">		
+				<div class="main4">Content 4</div>
+				<div class="main5">Content 5</div>
+				<div class="main6">Content 6</div>
+				<div class="main7">Content 7</div>
+			</div>
+			<div class="main1-3">
+				<div class="main8">Content 8</div>
+				<div class="main9">Content 9</div>
+				<div class="main10">Content 10</div>
+			</div>	
+		</div>
+			</div>
+			<div class="bottom">&copy; 2018 ife.baidu.com</div>
+		</div>
+</body>
+</html>
